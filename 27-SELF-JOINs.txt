@@ -1,0 +1,3 @@
+SELECT e.name employee, m.ename manager
+FROM emp e LEFT JOIN emp m
+ON e.mgr = m.empno;
